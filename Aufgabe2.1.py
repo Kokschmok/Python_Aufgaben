@@ -6,11 +6,12 @@ laenge = float(Zlaenge)
 
 print("\nFür einen Zylinder mit einem Radius von " + str(radius) + "m\nund einer Länge von " + str(laenge) + "m ergeben sich folgende Werte:")
 
-Zvolumen   = 3.1416 * (radius)**2
+Zvolumen   = 3.1416 * (radius)**2*laenge
 Zvolumen = round(Zvolumen, 2)
 
 Zoberflaeche = 2 * 3.1416 * radius * laenge
 Zoberflaeche = round(Zoberflaeche, 2)
 
-print("\nVolumen des Zylinders: " + str(Zvolumen) + " Kubikmeter\nOberfläche des Zylinders: " + str(Zoberflaeche) + " Quadratmeter")
-print("\nDie Berechnung wurde von Elyesa Sentürk durchgeführt.1")
+print("\nVolumen des Zylinders: ", "\t" + str(Zvolumen) + " Kubikmeter\nOberfläche des Zylinders: ", "\t" + str(Zoberflaeche) + " Quadratmeter")
+
+print("\nDie Berechnung wurde von Elyesa Sentürk durchgeführt.")
